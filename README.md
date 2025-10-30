@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![CI](https://github.com/yoann/MeteoFrance/actions/workflows/ci.yml/badge.svg)](https://github.com/yoann/MeteoFrance/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/yoann/MeteoFrance/branch/main/graph/badge.svg)](https://codecov.io/gh/yoann/MeteoFrance)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
@@ -29,12 +28,6 @@ Une application météo complète utilisant l'API MeteoFrance pour obtenir des p
 - Python 3.8 ou supérieur
 - pip
 
-### Installation depuis PyPI (recommandé)
-
-```bash
-pip install meteofrance-app
-```
-
 ### Installation depuis les sources
 
 ```bash
@@ -43,14 +36,7 @@ git clone https://github.com/YoannDev90/MeteoFrance.git
 cd MeteoFrance
 
 # Installez en mode développement
-pip install -e .
-```
-
-### Installation manuelle
-
-```bash
-# Installez les dépendances requises
-pip install meteofrance-api toml matplotlib
+pip install -r requirements.txt
 ```
 
 ## 📖 Utilisation
@@ -145,7 +131,7 @@ Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de détails.
 
 ## 👥 Contributeurs
 
-- **Yoann** - *Développeur principal* - [GitHub](https://github.com/yoann)
+- **Yoann** - *Développeur principal* - [GitHub](https://github.com/YoannDev90)
 
 ## 🙏 Remerciements
 
